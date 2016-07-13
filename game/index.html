@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Game</title>
+        <link rel="stylesheet" type="text/css" href="css/game.css">
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/game.js"></script>
+    </head>
+    
+    <body>
+	    <div id = "header">
+		    <div id = "score1" class = "score"></div>
+		    <div id = "button">
+			    <p>:</p>
+			    <p>游戏说明</p>
+		    </div>
+		    <div id = "score2" class="score"></div>
+	    </div>
+	    <div id = "gamearea">
+		    <div class = "player" id = "player1"></div>
+		    <div class = "player" id = "player2"></div>
+		    <div id = "ball"></div><!--if not necessary change it to what your need-->
+	    </div>
+	    <div id = "guide">
+		    <div id = "p1">
+			    <p>1P:左control：终极技能</p>
+			    <p>w:向上移动_a:向左移动</p>
+			    <p>s:向下移动_d:向右移动</p>
+		    </div>
+		    <div id = "p2">
+			    <p>2P:右shift：终极技能</p>
+			    <p>up:向上移动_left:向左移动</p>
+			    <p>down:向下移动_right:向右移动</p>
+		    </div>
+	    </div>
+	    <div id = "introduction">
+		    <p>游戏说明:</p>
+		    <p>这个小游戏是一个双人小游戏。两名玩家分别控制红蓝两块不同的挡板，通过移动挡板来击打小球来改变小球的运动方向，将小球击打至对方底线的指定区域（大禁区内）可以得一分。分数最先达到5分的玩家获得胜利。</p>
+		    <p>操作说明：</p>
+		    <p>玩家1： w:向上移动__s:向下移动__a:向左移动__d:向右移动__左control：终极技能</p>
+		    <p>玩家2： 方向键：上:向上移动__下：向下移动__左：向左移动__右：向右移动__右shift：终极技能</p>
+		    <p>当有一方获胜时，按space键可重置游戏。</p>
+		    <p><b>按esc键退出本说明</b></p>
+	    </div>
+	    <div id="p1_win"></div>
+	    <div id="p2_win"></div>
+	    <div id = "bottom1"><div id = "top1"></div></div>
+	    <div id = "bottom2"><div id = "top2"></div></div>
+    </body>
+    
+</html>
